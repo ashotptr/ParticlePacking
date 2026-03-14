@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="exported_jars/osp_guide.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/osp_guide/guide.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=osp/src&lt;org.opensourcephysics.tools{Launcher.java[Launcher" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="false" exportJavaFiles="false" exportOutputFolder="true">
+        <javaElement handleIdentifier="=osp_guide/xml"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.display3d.core.interaction"/>
+        <javaElement handleIdentifier="=osp_guide/src"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.display3d.core"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.controls"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.numerics"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.ejs"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.display3d.simple3d"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.jibble.epsgraphics"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.display3d.simple3d.utils"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.display2d"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.ejs.control.value"/>
+        <file path="/osp/src/overview.html"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.resources.controls.doctypes"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.display.axes"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.frames"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.display.dialogs"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.resources.display"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.resources.controls"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.ejs.control.swing"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.resources.tools"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.resources.tools.images"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.display"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.davidson.applets"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.resources.controls.images"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.ejs.control"/>
+        <javaElement handleIdentifier="=osp/src&lt;org.opensourcephysics.tools"/>
+    </selectedElements>
+</jardesc>

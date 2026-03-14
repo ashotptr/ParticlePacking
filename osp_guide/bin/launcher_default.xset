@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.tools.Launcher$LaunchSet">
+    <property name="launch_nodes" type="collection" class="java.util.ArrayList">
+        <property name="item" type="string">osp_guide.xset</property>
+    </property>
+</object>

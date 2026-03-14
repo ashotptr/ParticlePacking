@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.tools.LaunchNode">
+    <property name="name" type="string">OSP Overview</property>
+    <property name="url" type="string">overview/osp_guide.html</property>
+    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Launcher</property>
+            <property name="url" type="string">overview/launcher.html</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Introduction</property>
+                    <property name="url" type="string">overview/launcher.html</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Running</property>
+                    <property name="url" type="string">overview/running_launcher.html</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Authoring</property>
+                    <property name="url" type="string">overview/running_launchbuilder.html</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+    </property>
+</object>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="java.lang.Object">
+    <property name="comment" type="string">An XML description of an ideal gas.</property>
+    <property name="pressure" type="double">100000.0</property>
+    <property name="volume" type="double">2.0</property>
+    <property name="temperature" type="double">273.0</property>
+</object>

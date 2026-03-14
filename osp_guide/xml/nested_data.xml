@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="java.lang.Object">
+    <property name="name" type="string">Test Object</property>
+    <property name="comment" type="string">A test of XML.</property>
+    <property name="temperature" type="double">273.4</property>
+    <property name="number" type="int">200</property>
+    <property name="shape" type="object">
+    <object class="org.opensourcephysics.display.InteractiveShape">
+        <property name="geometry" type="string">java.awt.geom.Rectangle2D$Double</property>
+        <property name="x" type="double">0.0</property>
+        <property name="y" type="double">1.0</property>
+        <property name="width" type="double">2.0</property>
+        <property name="height" type="double">5.0</property>
+        <property name="x offset" type="double">0.0</property>
+        <property name="y offset" type="double">0.0</property>
+        <property name="theta" type="double">0.0</property>
+        <property name="pixel sized" type="boolean">false</property>
+        <property name="is enabled" type="boolean">true</property>
+        <property name="is measured" type="boolean">false</property>
+        <property name="color" type="object">
+        <object class="java.awt.Color">
+            <property name="red" type="int">255</property>
+            <property name="green" type="int">128</property>
+            <property name="blue" type="int">128</property>
+            <property name="alpha" type="int">128</property>
+        </object>
+        </property>
+        <property name="general path" type="object">
+        <object class="java.awt.geom.GeneralPath">
+            <property name="winding rule" type="int">1</property>
+            <property name="segments" type="string"><![CDATA[<MOVETO -1.0 -1.5><LINETO 1.0 -1.5><LINETO 1.0 3.5><LINETO -1.0 3.5><LINETO -1.0 -1.5><CLOSE>]]></property>
+        </object>
+        </property>
+    </object>
+    </property>
+    <property name="data array" type="array" class="[D">
+        <property name="array" type="string">{1.0,2.0,3.0}</property>
+    </property>
+</object>

@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.tools.LaunchNode">
+    <property name="name" type="string">Programs</property>
+    <property name="description" type="string"><![CDATA[Example Programs for "An Introduction to Computer imulation Methods, 3rd edition" by Harvey Gould, Jan Tobochnik, and Wolfgang Christian
+]]></property>
+    <property name="url" type="string">programs/csm_programs.html</property>
+    <property name="singleton" type="boolean">true</property>
+    <property name="single_vm" type="boolean">true</property>
+    <property name="single_app" type="boolean">true</property>
+    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 1</property>
+            <property name="description" type="string">The importance of computers in physics and the nature of computer simulation is discussed. The nature of object-oriented
+programming and various computer languages also is considered.
+</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SHOApp</property>
+                    <property name="description" type="string">A drawing panel with a circle and arrow.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch01.SHOApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SinApp</property>
+                    <property name="description" type="string">A plot of a sine function.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch01.SinApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 2</property>
+            <property name="description" type="string"><![CDATA[We introduce some of the core syntax of Java in the context of simulating the motion of falling particles near the Earth's surface.]]></property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BouncingBallApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.BouncingBallApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CalculationApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.CalculationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ComplexApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.ComplexApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FallingBallApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.FallingBallApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FallingParticleApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.FallingParticleApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FallingParticleCalcApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.FallingParticleCalcApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FallingParticlePlotApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.FallingParticlePlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FirstFallingBallApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.FirstFallingBallApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PlotFrameApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.PlotFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SimulationApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch02.SimulationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 3</property>
+            <property name="description" type="string"><![CDATA[We discuss several numerical methods needed to simulate the motion of particles using Newton's laws and introduce \emph{interfaces}, an important Java construct that makes it possible for unrelated objects to interact with each other.]]></property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Ball3DApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.Ball3DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DataLoaderApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.DataLoaderApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Demo3D_1App</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.Demo3D_1App</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Demo3D_2App</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.Demo3D_2App</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Demo3D_3App</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.Demo3D_3App</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Demo3D_4App</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.Demo3D_3App</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Demo3D_5App</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.Demo3D_3App</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DrawingApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.DrawingApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FallingParticleODEApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.FallingParticleODEApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ProjectileApp</property>
+                    <property name="description" type="string">Program output will appear in the message log window.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch03.Demo3D_3App</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 4</property>
+            <property name="description" type="string"><![CDATA[We discuss several numerical methods needed to simulate the motion of particles using Newton's laws and introduce interfaces, an important Java construct that makes it possible for unrelated objects to interact with
+each other.]]></property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PendulumApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch04.PendulumApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RCApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch04.RCApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 5</property>
+            <property name="description" type="string"><![CDATA[We apply Newton's laws of motion to planetary motion and emphasize some of the counter-intuitive consequences of Newton's laws.]]></property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Mouse App</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch05.MouseApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PlanetApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch05.PlanetApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Planet2App</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch05.Planet2App</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ScatterApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch05.ScatterApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SecondLawPlotApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch05.SecondLawPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ThreeBodyApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch05.ThreeBodyApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 6</property>
+            <property name="description" type="string">We study simple nonlinear deterministic models that exhibit chaotic behavior. We will find that the use of the computer to do numerical experiments will help us gain insight into the nature of chaos.</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BifrucateApp</property>
+                    <property name="description" type="string">BifurcateApp demonstrates chaos in the logistic equation by plotting the return map for different values of r.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch06.BifurcateApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FixedPointApp</property>
+                    <property name="description" type="string">BifurcateApp demonstrates chaos in the logistic equation by plotting the return map for different values of r.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch06.FixedPointApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GraphicalSolutionApp</property>
+                    <property name="description" type="string">BifurcateApp demonstrates chaos in the logistic equation by plotting the return map for different values of r.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch06.GraphicalSolutionApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IterateMapApp</property>
+                    <property name="description" type="string">BifurcateApp demonstrates chaos in the logistic equation by plotting the return map for different values of r.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch06.IterateMapApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PoincareApp</property>
+                    <property name="description" type="string">BifurcateApp demonstrates chaos in the logistic equation by plotting the return map for different values of r.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch06.PoincareApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RecursiveFixedPointApp</property>
+                    <property name="description" type="string">BifurcateApp demonstrates chaos in the logistic equation by plotting the return map for different values of r.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch06.RecursiveFixedPointApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 7</property>
+            <property name="description" type="string">Random processes are introduced in the context of several simple physical systems, including random walks on a lattice and polymers.</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BoxApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch07.BoxApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FermatApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch07.FermatApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">NuclearDecayApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch07.NuclearDecayApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">WalkerApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch07.WalkerApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 8</property>
+            <property name="description" type="string">We simulate the dynamical behavior of many particle systems and observe their qualitative features. Some of the basic ideas of
+equilibrium statistical mechanics and kinetic theory are introduced.</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">hd</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">HDApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch08.hd.HardDisksApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">md</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">LJParticlesApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch08.md.LJParticlesApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ExampleXMLApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch08.ExampleXMLApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PBCPlotApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch08.PBCPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 9</property>
+            <property name="description" type="string">We discuss the physics of wave phenomena and the motivation and use of Fourier transforms.
+
+</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">AnalyzeApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.AnalyzeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FFTApp</property>
+                    <property name="description" type="string">FFTApp tests the FFT class by computing the transform of a complex exponential.
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.FFTApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_vm" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FraunhoferApp</property>
+                    <property name="description" type="string">Computes the Fraunhofer diffraction pattern using the FFT alogrithm.
+
+
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.FraunhoferApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Fraunhofer2DApp</property>
+                    <property name="description" type="string">Computes the Fresnel diffraction pattern from a circular aperture.
+
+
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.Fraunhofer2DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FresnelApp</property>
+                    <property name="description" type="string">Computes the Fresnel diffraction pattern from a circular aperture.
+
+
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.FresnelApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">HuygensApp</property>
+                    <property name="description" type="string">HuygensApp models the electric field from one or more planar point sources.
+
+
+
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.HuygensApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">OscillatorsApp</property>
+                    <property name="description" type="string">Displays a system of coupled oscillators in a drawing panel.
+
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.OscillatorsApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RasterFrameApp</property>
+                    <property name="description" type="string">HuygensApp models the electric field from one or more planar point sources.
+
+
+
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.RasterFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Scalar2DFrameApp</property>
+                    <property name="description" type="string">HuygensApp models the electric field from one or more planar point sources.
+
+
+
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.Scalar2DFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SynthesizeApp</property>
+                    <property name="description" type="string">HuygensApp models the electric field from one or more planar point sources.
+
+
+
+</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch09.SynthesizeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 10</property>
+            <property name="description" type="string"><![CDATA[We compute the electric fields due to static and moving charges, describe methods for computing the electric potential in boundary value problems, and solve Maxwell's equations numerically.]]></property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ElectricFieldApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch10.ElectricFieldApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FieldLineApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch10.FieldLineApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LaplaceApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch10.LaplaceApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MaxwellApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch10.MaxwellApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RadiatingEFieldApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch10.RadiatingEFieldApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">VectorPlotApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch10.VectorPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 11</property>
+            <property name="description" type="string">Simple classical and Monte Carlo methods are illustrated in the context of the numerical methods including the evaluation of definite
+integrals.
+</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IntegralCalcApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch11.IntegralCalcApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LegendreInterpolatorApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch11.LagrangeInterpolatorApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MonteCarloEstimatorApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch11.MonteCarloEstimatorApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">NumericalIntegrationApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch11.NumericalIntegrationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PolynomialApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch11.PolynomialApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PolynomialFitApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch11.PolynomialFitApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 12</property>
+            <property name="description" type="string">We introduce several concepts associated with critical phenomena in the context of percolation, including  scaling relations, critical exponents, and the renormalization group.</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ClustersApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch12.ClustersApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RGApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch12.RGApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PercolationApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch12.ClustersApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 13</property>
+            <property name="description" type="string">We introduce the concept of fractal dimension and discuss several processes that generate fractal objects.</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">cca</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">CCAApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch13.cca.CCAApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">cluster</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">SingleClusterApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch13.cluster.SingleClusterApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">invasion</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">InvasionApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch13.invasion.InvasionApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DLAApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch13.DLAApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">KochApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch13.KochApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 14</property>
+            <property name="description" type="string">We introduce cellular automata models, neural networks, genetic algorithms, and growing network models to explore the concepts of
+self-organization and complexity. Applications to fluids, sandpiles, and earthquakes and other areas are discussed.</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ca</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">LifeApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch14.ca.LifeApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">OneDimensionalAutomatonApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch14.ca.OneDimensionalAutomatonApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">generic</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">GeneticApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch14.genetic.GeneticApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">latticegas</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">LatticeGasApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch14.latticegas.LatticeGasApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">networks</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">NetworksApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch14.networks.NetworksApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">sandpile</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">SandpileApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch14.sandpile.SandpileApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">traffic</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                        <property name="item" type="object">
+                        <object class="org.opensourcephysics.tools.LaunchNode">
+                            <property name="name" type="string">FreewayApp</property>
+                            <property name="url" type="string">programs/csm_programs.html</property>
+                            <property name="launch_class" type="string">org.opensourcephysics.sip.ch14.traffic.FreewayApp</property>
+                            <property name="singleton" type="boolean">true</property>
+                            <property name="single_app" type="boolean">true</property>
+                        </object>
+                        </property>
+                    </property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Hopfield</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch14.HopfieldApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 15</property>
+            <property name="description" type="string">We discuss how to simulate thermal systems using a variety of Monte Carlo methods including the traditional
+Metropolis algorithm. Applications to the Ising model and various particle systems are discussed and more efficient Monte Carlo algorithms are introduced.</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BoltzmannApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch15.BoltzmannApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IdealDemonApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch15.IdealDemonApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IsingApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch15.IsingApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IsingAutoCorrelatorApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch15.IsingAutoCorrelatorApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IsingDemonApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch15.IsingDemonApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ManyDemonsApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch15.ManyDemonsApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 16</property>
+            <property name="description" type="string">We discuss numerical solutions of the time-independent and time-dependent Schrodinger equation and describe several Monte Carlo methods for estimating the ground state of quantum systems.</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BoxSuperpositionApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch16.BoxSuperpositionApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Complex2DFrameApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch16.Complex2DFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ComplexPlotFrameApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch16.ComplexPlotFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">EigenstateApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch16.EigenstateApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">QMWalkApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch16.QMWalkApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">TDHalfStepApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch16.TDHalfStepApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SchroedingerApp</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch16.SchroedingerApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 17</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Affine2DApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.Affine2DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Box3DApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.Box3DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FeynmanPlateApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.FeynmanPlateApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FreeRotationApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.FreeRotationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Interaction3DApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.Interaction3DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Methane3DApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.Methane3DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MethaneApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.MethaneApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">QuaternionApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.QuaternionApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SpinningTopApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.SpinningTopApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">TorqueApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch17.SpinningTopApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 18</property>
+            <property name="description" type="string">Seeing in Special and General Relativity</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">No Programs</property>
+                    <property name="description" type="string">We compute how objects appear at relativistic speeds and in the vicinity of a large spherically symmetric mass.
+
+Programs are developed as exercises.  See the solutions manual for programs.</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 19</property>
+            <property name="url" type="string">programs/csm_programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ConstraintsApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch19.ConstraintsApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GalaxyApp</property>
+                    <property name="url" type="string">programs/csm_programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.sip.ch19.GalaxyApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+    </property>
+</object>

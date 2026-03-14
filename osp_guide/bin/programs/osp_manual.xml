@@ -1,0 +1,1603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.tools.LaunchNode">
+    <property name="name" type="string">Programs</property>
+    <property name="description" type="string">A Users Guid to the OSP Library with Examples from the Open Source Physics project.</property>
+    <property name="url" type="string">programs/programs.html</property>
+    <property name="singleton" type="boolean">true</property>
+    <property name="single_vm" type="boolean">true</property>
+    <property name="single_app" type="boolean">true</property>
+    <property name="child_nodes" type="collection" class="java.util.ArrayList">
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 1</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FirstPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch01.FirstPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">HelloWorldApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch01.HelloWorldApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 2</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Ball3DApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch02.Ball3DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PlotFrameApp</property>
+                    <property name="description" type="string">Displays a plot of the sin(x)/x function.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch02.PlotFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Function Plotter</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch02.PlotterApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SHOApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch02.SHOApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 3</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BallAndTableApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.BallAndTableApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Complex2DFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.Complex2DFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ComplexPlotFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.ComplexPlotFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Display3DFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.Display3DFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FFT2DFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.FFT2DFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FFTFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.FFTFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">InteractionApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.InteractionApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PlotFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.PlotFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Scalar2DFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.Scalar2DFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">TableFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.TableFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">VectorFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.VectorFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Wave3DApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch03.Wave3DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 4</property>
+            <property name="description" type="string"><![CDATA[Chapter 2 examples for an  Open Source Physics: A User's Guide with Examples by Wolfgang Christian.]]></property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">AffineTestApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.AffineTestApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BoundedShapeApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.BoundedShapeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CircleAndArrowApp</property>
+                    <property name="description" type="string">CircleAndArrowApp tests the DrawingPanel class by creating two drawable objects.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.CircleAndArrowApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DimensionedCircleAndArrowApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.DimensionedCircleAndArrowApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DrawableShapeApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.DrawableShapeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DrawingApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.DrawingApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GreekCharApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.GreekCharApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">InteractiveHandlerApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.InteractiveHandlerApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">InteractiveShapeApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.InteractiveShapeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LoadImageApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.LoadImageApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MeasuredImageApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.MeasuredImageApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MessageApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.MessageApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PathIntegralApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.PathIntegralApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">StripchartApp</property>
+                    <property name="description" type="string">StripchartApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch04.StripchartApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 5</property>
+            <property name="description" type="string"><![CDATA[Chapter 3 examples for an  Open Source Physics: A User's Guide with Examples by Wolfgang Christian.]]></property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">AnimationApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.AnimationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">AnimationFrameApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.AnimationFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CalculationAppApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.CalculationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CustomButtonApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.CustomButtonApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IsingApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.IsingApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LissajousApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.LissajousApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MainThreadApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.MainThreadApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">OSPControlApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.OSPControlApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RotationApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.RotationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SetValueApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.SetValueApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ShapeAnimationApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.ShapeAnimationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SimulationApp</property>
+                    <property name="description" type="string">AnimationFrameApp demonstrates how to create an animation by extending AbstractAnimation.</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch05.SimulationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 6</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DataTableApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.DataTableApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DatasetApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.DatasetApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DatasetManagerApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.DatasetManagerApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ExponentialEulerApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.ExponentialEulerApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GaussianPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.GaussianPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">KepletPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.KeplerPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LowpassFilterApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.LowpassFilterApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MarkerAreaApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.MarkerAreaApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MarkerBarApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.MarkerBarApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MarkerCircleApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.MarkerCircleApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MarkerConnectedApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.MarkerConnectedApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MarkerPixelApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.MarkerPixelApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MarkerPostApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.MarkerPostApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Polar2PlottingApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.Polar2PlottingApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PolarPlottingApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch06.PolarPlottingApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 7</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BufferStrategyApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch07.BufferStrategyApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BufferedAnimationApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch07.BufferedAnimationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DataRasterApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch07.DataRasterApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DirectAnimationApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch07.DirectAnimationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LogisticApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch07.LogisticApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RenderApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch07.RenderApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RepaintApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch07.RepaintApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 8</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BinaryLatticeAnimationApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.BinaryLatticeAnimationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BinaryLatticeApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.BinaryLatticeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BufferedContourApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.BufferedContourApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ByteRasterApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.ByteRasterApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CalcComplexPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.CalcComplexPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CalcContourPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.CalcContourPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CalcGridPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.CalcGridPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CalcSurfacePlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.CalcSurfacePlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CalcVectorPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.CalcVectorPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CellLatticeApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.CellLatticeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ComplexControurApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.ComplexContourApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ComplexGridPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.ComplexGridPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ComplexInterpolatedApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.ComplexInterpolatedApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ComplexSurfacePlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.ComplexSurfacePlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ContourPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.ContourPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DLAApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.DLAApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DiffractionApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.DiffractionApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">DiffractionRasterApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.DiffractionRasterApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GameOfLifeApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.GameOfLifeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GaussianContourApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.GaussianContourApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GaussianGridPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.GaussianGridPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GaussianInterpolatedApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.GaussianInterpolatedApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GaussianSurfacePlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.GaussianSurfacePlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GradientOverlayApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.GradientOverlayApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GrayscaleApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.GrayscaleApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GridPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.GridPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">InterpolatedPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.InterpolatedPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LatticeFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.LatticeFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MandelbrotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.MandelbrotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RandomWalkApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.RandomWalkApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SiteLatticeApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.SiteLatticeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SurfaceArrayApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.SurfaceArrayApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SurfacePlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.SurfacePlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">VectorPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch08.VectorPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 9</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">AdaptiveStepApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.AdaptiveStepApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BallBoxCollisionApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.BallBoxCollisionApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BallFloorCollisionApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.BallFloorCollisionApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BallsInBoxApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.BallsInBoxApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">HeliumApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.HeliumApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">InverseSquareApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.InverseSquareApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">NBodyApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.NBodyApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PlanarNBodyApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.PlanarNBodyApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SHOApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.SHOApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SineIntegralApp</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch09.SineIntegralApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 10</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ArcsinApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.ArcsinApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CubicSplineApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.CubicSplineApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FFTApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.FFTApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FFTPlotApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.FFTPlotApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FFTRealApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.FFTRealApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GaussianDerivativeApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.GaussianDerivativeApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IntegralApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.IntegralApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LagrangeInterpolatorApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.LagrangeInterpolatorApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ParseRealApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.ParseRealApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PolynomialApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.PolynomialApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">PolynomialFitApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.PolynomialFitApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RootApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.RootApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RootFinderApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.RootFinderApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SlitTableApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch10.SlitTableApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 11</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">AlignmentApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.AlignmentApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BallInteractionApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.BallInteractionApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">BounceApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.BounceApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Box3DApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.Box3DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CameraApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.CameraApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ElementApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.ElementApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">FreeRotationApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.FreeRotationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GroupApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.GroupApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">Interaction3DApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.Interaction3DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LorenzApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.LorenzApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">MatrixRotationApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.MatrixRotationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">QRotationApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.QRotationApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SHO3DApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.SHO3DApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">SpinningTopApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.SpinningTopApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">TorqueApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch11.TorqueApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 12</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IdealGasCreateApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.IdealGasCreateApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IdealGasLoadApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.IdealGasLoadApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">IdealGasSaveApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.IdealGasSaveApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ParticleApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.ParticleApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ReadNestedXMLApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.ReadNestedXMLApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ReadXMLApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.ReadXMLApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ScratchPadApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.ScratchPadApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ShowXMLApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.ShowXMLApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">WriteShowNestedXMLApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.WriteShowNestedXMLApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">WriteXMLApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch12.WriteXMLApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 13</property>
+            <property name="description" type="string">Chapter 13: Video programs require QuickTime 7.0 from Apple Compter.</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.tools.LaunchNode">
+            <property name="name" type="string">Ch 14</property>
+            <property name="url" type="string">programs/programs.html</property>
+            <property name="singleton" type="boolean">true</property>
+            <property name="single_app" type="boolean">true</property>
+            <property name="child_nodes" type="collection" class="java.util.ArrayList">
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">ChooserApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch14.ChooserApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CustomHelpApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch14.CustomHelpApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">CustomInspectorApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch14.CustomInspectorApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GetImageApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch14.GetImageApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">GetTextApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch14.GetTextApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="show_log" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">LoggerApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch14.LoggerApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">RemoveMenuApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch14.RemoveMenuApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">TextFrameApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch14.TextFrameApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+                <property name="item" type="object">
+                <object class="org.opensourcephysics.tools.LaunchNode">
+                    <property name="name" type="string">XMLMenuApp</property>
+                    <property name="url" type="string">programs/programs.html</property>
+                    <property name="launch_class" type="string">org.opensourcephysics.manual.ch14.XMLMenuApp</property>
+                    <property name="singleton" type="boolean">true</property>
+                    <property name="single_app" type="boolean">true</property>
+                </object>
+                </property>
+            </property>
+        </object>
+        </property>
+    </property>
+</object>

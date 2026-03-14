@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.tools.Launcher$LaunchSet">
+    <property name="title" type="string">OSP User Guide CD</property>
+    <property name="width" type="int">830</property>
+    <property name="height" type="int">820</property>
+    <property name="divider" type="int">160</property>
+    <property name="launch_nodes" type="collection" class="java.util.ArrayList">
+        <property name="item" type="string">overview/Overview.xml</property>
+        <property name="item" type="string">programs/osp_manual.xml</property>
+    </property>
+    <property name="editor_enabled" type="boolean">true</property>
+</object>

@@ -1,0 +1,86 @@
+<project name="osp" default="all" basedir=".\">
+	<property name="jdk" value="C:\jdk"/>
+	<property name="build.dir" value=".\build\"/>
+	<property name="classes.dir" value="${build.dir}\classes\"/>
+	<property name="jar.dir" value="${build.dir}\jar\"/>
+	<property name="docs.dir" value="${build.dir}\docs\"/>
+	<property name="src.dir" value="..\src\"/>
+	<property name="author" value="W. Christian"/>
+
+  <tstamp>
+     <format property="buildtime.isoformat" pattern="yyyy-MM-dd'T'HH:mm:ss"/>    
+  </tstamp>
+
+
+	<!--help: list important targets-->
+	<target name="help">
+		<echo>all - removes old builds compiles the Open Source Physics libraries</echo>
+		<echo>compile - compiles the Open Source Physics libraries</echo>
+		<echo>clean - removes old build files</echo>
+                <echo>docs - creates javadoc documentation</echo>
+                <echo>ydocs - creates javadoc documentation using ydoc</echo>
+	</target>
+
+	<!--init: create the directories-->
+	<target name="init">
+		<mkdir dir="${build.dir}"/>
+		<mkdir dir="${jar.dir}"/>
+		<mkdir dir="${docs.dir}"/>
+		<mkdir dir="${classes.dir}"/>
+       <mkdir dir="${classes.dir}/meta-inf"/>
+	</target>
+
+	<!--clean: clean the directories-->
+	<target name="clean" depends="init">
+		<delete dir="${jar.dir}"/>
+		<delete dir="${classes.dir}"/>
+		<delete dir="${docs.dir}"/>
+		<delete dir="${build.dir}"/>
+        <delete dir="${classes.dir}/meta-inf"/>
+	</target>
+
+	<!--compile: compiles the source files-->
+	<target name="compile" depends="init">
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" source="1.5">
+			<compilerarg value="-Xlint:-serial"/>
+		</javac>
+		<copy todir="${classes.dir}/org/opensourcephysics/resources">
+ 			<fileset dir="${src.dir}/org/opensourcephysics/resources"/>
+		</copy>	
+	</target>
+
+	<!--all: removes old files and compiles the source files-->
+	<target name="all" depends="compile,jarfile" >
+	</target>
+
+	<!--jarfile: creates the manifest-->
+	<target name="manifest">
+		<manifest file="${classes.dir}/meta-inf/Manifest.mf">
+       		<attribute name="Built-By" value="${author}"/>
+            <attribute name="Built-On" value="${buildtime.isoformat}"/>
+            <attribute name="Main-Class" value="org.opensourcephysics.tools.LaunchBuilder"/>
+       </manifest >
+	</target>
+
+	<!--jarfile: creates the jar file-->
+	<target name="jarfile" depends="compile,manifest">
+		<jar jarfile="${jar.dir}osp.jar" basedir="${classes.dir}"   manifest="${classes.dir}/meta-inf/Manifest.mf" />
+        <copy todir="${build.dir}/../../lib">
+ 			<fileset dir="${jar.dir}"/>
+		</copy>	
+	</target>
+
+	
+	<!--docs: generates documentation-->
+	<target name="docs">
+		<javadoc 
+			packagenames="org.opensourcephysics.*"
+		    sourcepath="${src.dir}"
+			destdir="docs">
+  		</javadoc>
+	</target>
+
+</project>
+
+
+

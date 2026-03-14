@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.manual.ch12.IdealGas">
+    <property name="pressure" type="double">100000.0</property>
+    <property name="volume" type="double">2.0</property>
+    <property name="temperature" type="double">300.0</property>
+</object>

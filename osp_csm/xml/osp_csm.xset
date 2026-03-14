@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.tools.Launcher$LaunchSet">
+    <property name="classpath" type="string">sip_book.jar</property>
+    <property name="title" type="string">An Introduction to Computer Simulation Methods</property>
+    <property name="editor_enabled" type="boolean">true</property>
+    <property name="width" type="int">1077</property>
+    <property name="height" type="int">809</property>
+    <property name="divider" type="int">160</property>
+    <property name="launch_nodes" type="collection" class="java.util.ArrayList">
+        <property name="item" type="string">overview/csm_overview.xml</property>
+        <property name="item" type="string">programs/csm_programs.xml</property>
+    </property>
+</object>
